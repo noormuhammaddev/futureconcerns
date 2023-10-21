@@ -152,7 +152,12 @@ const Footer = () => {
                 <div className="footer-bottom-area">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-6">
-                            <p>Copyright &copy;{currentYear} All rights reserved <a target="_blank" href="https://www.futureconcerns.se/">FUTURE CONCERNS</a></p>
+                            <p>
+                                Copyright &copy;{currentYear} <a target="_blank" href="https://www.futureconcerns.se/">FUTURE CONCERNS </a> 
+                                Powered By - 
+                                <a href="https://sweden4allab.se/" target="_blank">SWEDEN 4 ALL AB </a> 
+                                <a href="https://globalvisa.eu/" target="_blank">GLOBALVISA.EU.</a>
+                            </p>
                         </div>
 
                         <div className="col-lg-6 col-md-6">
