@@ -12,9 +12,9 @@ const Footer = () => {
                     <div className="col-lg-4 col-sm-6">
                         <div className="single-footer-widget">
                             <a href="/" className="logo">
-                                <img src="/img/logo.png" alt="logo" />
+                                <img src="/img/logo.png" alt="logo" width="220" />
                             </a>
-                            <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+                            <p>We are Relocation Services Provider Company which deals with all sort of legal relocation to Sweden. We offers quality guidance, effective advice and provides information to our clients to settle down in the country.</p>
 
                             <ul className="social-link">
                                 <li>
@@ -51,32 +51,42 @@ const Footer = () => {
 
                     <div className="col-lg-2 col-sm-6">
                         <div className="single-footer-widget pl-5">
-                            <h3>Explore</h3>
+                            <h3>Useful Links</h3>
                             
                             <ul className="footer-links-list">
                                 <li>
-                                    <Link href="/">
-                                        <a>Home</a>
-                                    </Link>
-                                </li>
-                                    <li>
                                     <Link href="/about-us">
                                         <a>About</a>
                                     </Link>
                                 </li>
-                                <li>
-                                    <Link href="/case-studies-2-columns">
-                                        <a>Case Studies</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/blog">
-                                        <a>Our Blog</a>
-                                    </Link>
-                                </li>
+
                                 <li>
                                     <Link href="/contact">
                                         <a href="contact.html">Contact</a>
+                                    </Link>
+                                </li>
+
+                                <li>
+                                    <Link href="/">
+                                        <a>Services</a>
+                                    </Link>
+                                </li>
+
+                                <li>
+                                    <Link href="/">
+                                        <a>Blog</a>
+                                    </Link>
+                                </li>
+
+                                <li>
+                                    <Link href="/">
+                                        <a>FAQs</a>
+                                    </Link>
+                                </li>
+
+                                <li>
+                                    <Link href="/">
+                                        <a>Testimonials</a>
                                     </Link>
                                 </li>
                             </ul>
@@ -119,24 +129,20 @@ const Footer = () => {
 
                     <div className="col-lg-4 col-sm-6">
                         <div className="single-footer-widget">
-                            <h3>Address</h3>
+                            <h3>Get in Touch</h3>
 
                             <ul className="footer-contact-info">
                                 <li>
                                     <i className='bx bx-map'></i> 
-                                    175 5th Ave, New York, NY 10010, <br /> United States
+                                    Sallerupsvägen 28D Malmö, <br />Sweden
                                 </li>
                                 <li>
                                     <i className='bx bx-phone-call'></i>
-                                    <a href="tel:+44587154756">+1 (123) 456 7890</a>
+                                    <a href="tel:++46723276276">+46 723 276 276</a>
                                 </li>
                                 <li>
                                     <i className='bx bx-envelope'></i>
-                                    <a href="mailto:hello@tarn.com">hello@tarn.com</a>
-                                </li>
-                                <li>
-                                    <i className='bx bxs-inbox'></i>
-                                    <a href="tel:+557854578964">+55 785 4578964</a>
+                                    <a href="mailto:hello@tarn.com">info@futureconcerns.se</a>
                                 </li>
                             </ul>
                         </div>
@@ -146,7 +152,7 @@ const Footer = () => {
                 <div className="footer-bottom-area">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-6">
-                            <p>Copyright &copy;{currentYear} <strong>Tarn</strong> All rights reserved <a target="_blank" href="https://envytheme.com/">EnvyTheme</a></p>
+                            <p>Copyright &copy;{currentYear} All rights reserved <a target="_blank" href="https://www.futureconcerns.se/">FUTURE CONCERNS</a></p>
                         </div>
 
                         <div className="col-lg-6 col-md-6">
