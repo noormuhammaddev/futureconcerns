@@ -9,10 +9,10 @@ const Layout = ({ children }) => {
                 <meta charSet="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-                <title>Tarn - IT Business Startup & Agency React Next Template</title>
+                <title>FUTURE CONCERNS – Sweden Relocation Services</title>
                 <meta 
                     name="description" 
-                    content="Tarn - IT Business Startup & Agency React Next Template" 
+                    content="FUTURE CONCERNS – Sweden Relocation Services" 
                 />
             </Head>
 
