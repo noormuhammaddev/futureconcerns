@@ -20,14 +20,14 @@ const Index = () => {
             <MainBanner />
             <OurSolutions />
             <OurServices />
-            <OurFeatures />
+            {/* <OurFeatures />
             <TeamMember />
             <RecentProjects />
             <Pricing />
             <Testimonials />
             <Partner />
             <OurBlog />
-            <ProjectStartArea />
+            <ProjectStartArea /> */}
             <Footer />
         </>
     );
