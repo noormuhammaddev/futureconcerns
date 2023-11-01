@@ -54,7 +54,7 @@ const Navbar = () => {
                             <div className={classOne} id="navbarSupportedContent">
                                 <ul className="navbar-nav">
                                     <li className="nav-item">
-                                        <Link href="#" activeClassName="active">
+                                        <Link href="/" activeClassName="active">
                                             <a onClick={e => e.preventDefault()} className="nav-link">
                                                 Home
                                             </a>
@@ -62,7 +62,7 @@ const Navbar = () => {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="#" activeClassName="active">
+                                        <Link href="/services" activeClassName="active">
                                             <a onClick={e => e.preventDefault()} className="nav-link">
                                                 Services <i className='bx bx-chevron-down'></i>
                                             </a>
