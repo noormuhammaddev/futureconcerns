@@ -70,7 +70,7 @@ const Navbar = () => {
 
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
-                                                <Link href="/services" activeClassName="active">
+                                                <Link href="/services/software-development" activeClassName="active">
                                                     <a onClick={() => setCollapsed(true)} className="nav-link">Software Development</a>
                                                 </Link>
                                             </li>
@@ -98,7 +98,7 @@ const Navbar = () => {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="#" activeClassName="active">
+                                        <Link href="/new-in-sweden" activeClassName="active">
                                             <a onClick={e => e.preventDefault()} className="nav-link">
                                                 New in Sweden
                                             </a>
