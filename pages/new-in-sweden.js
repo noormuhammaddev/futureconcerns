@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/_App/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import ServiceDetailsContent from '../components/ServiceDetails/ServiceDetailsContent';
+import NewInSwedenDetail from '../components/NewInSwedenDetail/NewInSwedenDetail';
 import RelatedServices from '../components/ServiceDetails/RelatedServices';
 import Footer from '../components/_App/Footer';
  
@@ -11,13 +12,13 @@ const NewInSweden = () => {
             <Navbar />
 
             <PageBanner
-                pageTitle="Service Details" 
+                pageTitle="New in Sweden" 
                 homePageText="Home" 
                 homePageUrl="/" 
-                activePageText="Service Details" 
+                activePageText="New in Sweden" 
             />
 
-            <ServiceDetailsContent />
+            <NewInSwedenDetail />
 
             <RelatedServices />
             
