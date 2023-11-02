@@ -19,7 +19,12 @@ const Services = () => {
 
             <ServicesOne />
             
-            <StartProject />
+            <StartProject 
+                heading="HAVE ANY QUESTIONS?"
+                description="Need a consultation? Call us today +46-766-276-276 or email us: info@futureconcerns.se"
+                btnLabel="Book an Appointment"
+                btnLink="/contact"
+            />
             
             <Footer />
         </>
