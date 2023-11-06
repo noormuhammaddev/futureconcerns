@@ -19,10 +19,10 @@ const AboutUsContent = () => {
                                     <img src="/img/star-icon.png" alt="image" /> 
                                     About Us
                                 </span>
-                                <h2>Drive Digital Revolution Through Data Science</h2>
+                                <h2>Welcome To Future Concerns</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                                 
-                                <ul className="features-list">
+                                {/* <ul className="features-list">
                                     <li>
                                         <img src="/img/icons/icon4.png" alt="image" />
                                         <h3>10 Years</h3>
@@ -43,21 +43,24 @@ const AboutUsContent = () => {
                                         <h3>80%</h3>
                                         <p>Senior scientist</p>
                                     </li>
-                                </ul>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                </ul> */}
+                                <p>FUTURE CONCERNS HB is a Manpower Services Provider Company that provides IT Employees to Swedish C companies along with relocation solutions.  We offer fully integrated solutions to companies with international talent.</p>
+                                <p>The company is relatively new and established in 2020 in Sweden.</p>
+                                <p>The company offers quality guidance, and effective advice and provides information to its clients to find the right talent for their organizations.</p>
+                                <p>We provide solutions with Destination Services, Global Mobility Services, Immigration Services, Move Management, Intercultural Communication, and IT Solutions.</p>
                                 
-                                <Link href="/about-us">
+                                {/* <Link href="/about-us">
                                     <a className="default-btn">
                                         <i className="flaticon-right"></i>More About Us<span></span>
                                     </a>
-                                </Link>
+                                </Link> */}
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="circle-shape1">
+            {/* <div className="circle-shape1">
                 <img src="/img/shape/circle-shape1.png" alt="image" />
             </div>
 
@@ -111,7 +114,7 @@ const AboutUsContent = () => {
 
             <div className="circle-shape1">
                 <img src="/img/shape/circle-shape1.png" alt="image" />
-            </div>
+            </div> */}
         </section>
     )
 }

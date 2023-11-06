@@ -6,7 +6,7 @@ const ContactInfo = () => {
         <div className="contact-info-area pt-100 pb-70">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-4 col-md-6">
+                    <div className="col-md-6">
                         <div className="contact-info-box">
                             <div className="back-icon">
                                 <i className='bx bx-map'></i>
@@ -14,12 +14,25 @@ const ContactInfo = () => {
                             <div className="icon">
                                 <i className='bx bx-map'></i>
                             </div>
-                            <h3>Our Address</h3>
-                            <p>175 5th Ave, New York, NY 10010, United States</p>
+                            <h3>Sweden Office</h3>
+                            <p>Sallerupsvägen 28D 212 18 Malmö, Sweden</p>
                         </div>
                     </div>
 
-                    <div className="col-lg-4 col-md-6">
+                    <div className="col-md-6">
+                        <div className="contact-info-box">
+                            <div className="back-icon">
+                                <i className='bx bx-map'></i>
+                            </div>
+                            <div className="icon">
+                                <i className='bx bx-map'></i>
+                            </div>
+                            <h3>Denmark Office</h3>
+                            <p>Smedeland 7 1.Sal 2600 Glostrup, Denmark</p>
+                        </div>
+                    </div>
+
+                    <div className="col-md-6">
                         <div className="contact-info-box">
                             <div className="back-icon">
                                 <i className='bx bx-phone-call'></i>
@@ -28,7 +41,9 @@ const ContactInfo = () => {
                                 <i className='bx bx-phone-call'></i>
                             </div>
                             <h3>Contact</h3>
-                            <p>Mobile: <a href="tel:+44457895789">(+44) - 45789 - 5789</a></p>
+                            <p><a href="tel:+46 766 276 276">+46 766 276 276</a></p>
+                            <p><a href="tel:+46 102 146 276">+46 102 146 276</a></p>
+                            <p><a href="tel:+45 53 766 276">+45 53 766 276</a></p>
                             <p>E-mail: <a href="mailto:hello@tracer.com">hello@tarn.com</a></p>
                         </div>
                     </div>
@@ -41,9 +56,9 @@ const ContactInfo = () => {
                             <div className="icon">
                                 <i className='bx bx-time-five'></i>
                             </div>
-                            <h3>Hours of Operation</h3>
-                            <p>Monday - Friday: 09:00 - 20:00</p>
-                            <p>Sunday & Saturday: 10:30 - 22:00</p>
+                            <h3>Quick Contact</h3>
+                            <p>E-mail: <a href="mailto:info@futureconcerns.se">info@futureconcerns.se</a></p>
+                            <p>Technical Issues: <a href="mailto:support@futureconcerns.se">support@futureconcerns.se</a></p>
                         </div>
                     </div>
                 </div>
