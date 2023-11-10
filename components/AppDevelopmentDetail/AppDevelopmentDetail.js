@@ -27,7 +27,7 @@ const AppDevelopmentDetail = () => {
                             <section>
                                 <h3>Why Choose Us?</h3>
                                 <div className="services-details-image">
-                                    <img src="/img/services/services-details1.jpg" alt="image" />
+                                    <img src="/img/services/software-development.jpg" alt="image" />
                                 </div>
 
                                 <div className="content">

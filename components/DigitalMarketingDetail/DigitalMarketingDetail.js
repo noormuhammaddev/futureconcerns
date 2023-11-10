@@ -9,7 +9,7 @@ const DigitalMarketingDetail = () => {
                 <div className="row">
                     <div className="col-lg-8 col-md-12">
                         <div className="services-details-image">
-                            <img src="/img/services/services-details1.jpg" alt="image" />
+                            <img src="/img/services/software-development.jpg" alt="image" />
                         </div>
 
                         <div className="services-details-desc">
