@@ -1,81 +1,106 @@
 import React from 'react';
 import Link from 'next/link';
 
+const listData = [
+    {
+        label: 'Asylum',
+        url: '/service-detail/asylum'
+    },
+    {
+        label: 'Investment',
+        url: '/service-detail/investment'
+    },
+    {
+        label: 'Citizenship',
+        url: '/service-detail/citizenship'
+    },
+    {
+        label: 'Study in EU',
+        url: '/service-detail/study-in-eu'
+    },
+    {
+        label: 'Work Permit',
+        url: '/service-detail/work-permit'
+    },
+    {
+        label: 'Appeal Cases',
+        url: '/service-detail/appeal-cases'
+    },
+    {
+        label: 'Eea Permits',
+        url: '/service-detail/eea-permits'
+    },
+    {
+        label: 'Business Visit',
+        url: '/service-detail/business-visit'
+    },
+    {
+        label: 'House & Offices',
+        url: '/service-detail/house-and-offices'
+    },
+    {
+        label: 'Business Permit',
+        url: '/service-detail/business-permit'
+    },
+    {
+        label: 'Global Visit Visas',
+        url: '/service-detail/global-visit-visas'
+    },
+    {
+        label: 'Marriage & Divorce',
+        url: '/service-detail/marriage-and-divorce'
+    },
+    {
+        label: 'Parents EU Permit',
+        url: '/service-detail/parents-eu-permit'
+    },
+    {
+        label: 'System Developers',
+        url: '/service-detail/system-developers'
+    },
+    {
+        label: 'Company Registration',
+        url: '/service-detail/company-registration'
+    },
+    {
+        label: 'CPR Number Denmark',
+        url: '/service-detail/cpr-number-denmark'
+    },
+    {
+        label: 'EU Family Reunification',
+        url: '/service-detail/eu-family-reunification'
+    },
+    {
+        label: 'Permanent Residence',
+        url: '/service-detail/permanent-residence'
+    },
+    {
+        label: 'Personnummer Sweden',
+        url: '/service-detail/personnummer-sweden'
+    },
+    {
+        label: 'Golden Visa (greece-portugal)',
+        url: '/service-detail/golden-visa'
+    },
+    {
+        label: 'Direct Citizenship by Investments',
+        url: '/service-detail/direct-citizenship-by-investments'
+    },
+    
+]
+
 const Sidebar = () => {
     return (
         <div className="services-details-info">
             <ul className="services-list">
-                <li>
-                    <Link href="/service-details">
-                        <a className="active">AI & ML Development</a>
+                {listData.map((item, index) => (
+                <li key={index}>
+                    <Link href={item.url}>
+                        <a href="#">{item.label}</a>
                     </Link>
                 </li>
-                <li>
-                    <Link href="/service-details">
-                        <a>Data Analytics</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/service-details">
-                        <a>Data Science</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/service-details">
-                        <a>Artificial Intelligence</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/service-details">
-                        <a>Data Visualization</a>
-                    </Link>
-                </li>
+            ))}
             </ul>
-
-            <div className="download-file">
-                <h3>Brochures</h3>
-
-                <ul>
-                    <li>
-                        <Link href="#">
-                            <a>PDF Download <i className='bx bxs-file-pdf'></i></a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="#">
-                            <a>Services Details.txt <i className='bx bxs-file-txt'></i></a>
-                        </Link>
-                    </li>
-                </ul>
-            </div>
-
-            <div className="services-contact-info">
-                <h3>Contact Info</h3>
-                
-                <ul>
-                    <li>
-                        <div className="icon">
-                            <i className='bx bx-user-pin'></i>
-                        </div>
-                        <span>Phone:</span>
-                        <a href="tel:+21453545413" target="_blank">+2145 354 5413</a>
-                    </li>
-                    <li>
-                        <div className="icon">
-                            <i className='bx bx-map'></i>
-                        </div>
-                        <span>Location:</span>
-                        New York, USA
-                    </li>
-                    <li>
-                        <div className="icon">
-                            <i className='bx bx-envelope'></i>
-                        </div>
-                        <span>Email:</span>
-                        <a href="mailto:hello@tarn.com">hello@tarn.com</a>
-                    </li>
-                </ul>
-            </div>
         </div>
     )
 }
