@@ -55,7 +55,7 @@ const Navbar = () => {
                                 <ul className="navbar-nav">
                                     <li className="nav-item">
                                         <Link href="/" activeClassName="active">
-                                            <a onClick={e => e.preventDefault()} className="nav-link">
+                                            <a href="#" className="nav-link">
                                                 Home
                                             </a>
                                         </Link>
@@ -63,34 +63,34 @@ const Navbar = () => {
 
                                     <li className="nav-item">
                                         <Link href="/services" activeClassName="active">
-                                            <a onClick={e => e.preventDefault()} className="nav-link">
+                                            <a href="#" className="nav-link">
                                                 Services <i className='bx bx-chevron-down'></i>
                                             </a>
                                         </Link>
 
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
-                                                <Link href="/services/software-development" activeClassName="active">
+                                                <Link href="software-development" activeClassName="active">
                                                     <a onClick={() => setCollapsed(true)} className="nav-link">Software Development</a>
                                                 </Link>
                                             </li>
                                             <li className="nav-item">
-                                                <Link href="/services" activeClassName="active">
+                                                <Link href="/digital-marketing" activeClassName="active">
                                                     <a onClick={() => setCollapsed(true)} className="nav-link">Digital Marketing</a>
                                                 </Link>
                                             </li>
                                             <li className="nav-item">
-                                                <Link href="/services" activeClassName="active">
+                                                <Link href="/api-integration" activeClassName="active">
                                                     <a onClick={() => setCollapsed(true)} className="nav-link">API Integrations</a>
                                                 </Link>
                                             </li>
                                             <li className="nav-item">
-                                                <Link href="/services" activeClassName="active">
+                                                <Link href="/cross-platform-development" activeClassName="active">
                                                     <a onClick={() => setCollapsed(true)} className="nav-link">Cross Platform Development</a>
                                                 </Link>
                                             </li>
                                             <li className="nav-item">
-                                                <Link href="/services" activeClassName="active">
+                                                <Link href="/app-development" activeClassName="active">
                                                     <a onClick={() => setCollapsed(true)} className="nav-link">App Development</a>
                                                 </Link>
                                             </li>
@@ -99,23 +99,23 @@ const Navbar = () => {
 
                                     <li className="nav-item">
                                         <Link href="/new-in-sweden" activeClassName="active">
-                                            <a onClick={e => e.preventDefault()} className="nav-link">
+                                            <a onClick="#" className="nav-link">
                                                 New in Sweden
                                             </a>
                                         </Link>
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="#" activeClassName="active">
-                                            <a onClick={e => e.preventDefault()} className="nav-link">
+                                        <Link href="/work-permit" activeClassName="active">
+                                            <a href="#" className="nav-link">
                                                 Work Permit
                                             </a>
                                         </Link>
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="#" activeClassName="active">
-                                            <a onClick={e => e.preventDefault()} className="nav-link">
+                                        <Link href="/about-us" activeClassName="active">
+                                            <a href="#" className="nav-link">
                                                 About Us
                                             </a>
                                         </Link>
@@ -123,7 +123,7 @@ const Navbar = () => {
 
                                     <li className="nav-item">
                                         <Link href="/contact" activeClassName="active">
-                                            <a onClick={e => e.preventDefault()} className="nav-link">
+                                            <a href="#" className="nav-link">
                                                 Contact Us
                                             </a>
                                         </Link>
@@ -131,7 +131,7 @@ const Navbar = () => {
 
                                     {/* <li className="nav-item">
                                         <Link href="#" activeClassName="active">
-                                            <a onClick={e => e.preventDefault()} className="nav-link">
+                                            <a href="#" className="nav-link">
                                                 Services <i className='bx bx-chevron-down'></i>
                                             </a>
                                         </Link>
@@ -147,7 +147,7 @@ const Navbar = () => {
 
                                     <li className="nav-item">
                                         <Link href="#" activeClassName="active">
-                                            <a onClick={e => e.preventDefault()} className="nav-link">
+                                            <a href="#" className="nav-link">
                                                 Case Studies <i className='bx bx-chevron-down'></i>
                                             </a>
                                         </Link>
@@ -163,7 +163,7 @@ const Navbar = () => {
 
                                     <li className="nav-item">
                                         <Link href="#">
-                                            <a onClick={e => e.preventDefault()} className="nav-link">
+                                            <a href="#" className="nav-link">
                                                 Pages <i className='bx bx-chevron-down'></i>
                                             </a>
                                         </Link>
@@ -171,7 +171,7 @@ const Navbar = () => {
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
                                                 <Link href="#">
-                                                    <a onClick={e => e.preventDefault()} className="nav-link">
+                                                    <a href="#" className="nav-link">
                                                         Courses <i className='bx bx-chevron-down'></i>
                                                     </a>
                                                 </Link>
@@ -199,7 +199,7 @@ const Navbar = () => {
 
                                             <li className="nav-item">
                                                 <Link href="#">
-                                                    <a onClick={e => e.preventDefault()} className="nav-link">
+                                                    <a href="#" className="nav-link">
                                                         Events <i className='bx bx-chevron-down'></i>
                                                     </a>
                                                 </Link>
@@ -271,7 +271,7 @@ const Navbar = () => {
 
                                     <li className="nav-item">
                                         <Link href="#">
-                                            <a onClick={e => e.preventDefault()} className="nav-link">
+                                            <a href="#" className="nav-link">
                                                 Blog <i className='bx bx-chevron-down'></i>
                                             </a>
                                         </Link>

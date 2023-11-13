@@ -5,7 +5,7 @@ import Sidebar from './Sidebar';
 
 
 const ServicesInnerDetail = ({data}) => {
-    console.log('sss, ', data)
+    console.log('data ', data)
     return (
         <section className="services-details-area ptb-100">
             <div className="container">
