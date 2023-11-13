@@ -34,9 +34,9 @@ const ServicesInnerDetail = ({data}) => {
                                             item.inner_heading !== '' ? <strong>{item.inner_heading}</strong> : ''
                                         }
                                         {
-                                            item.list_items ? <div className="content"><ul>
+                                            item.listItems ? <div className="content"><ul>
                                             {
-                                                item.list_items.map((listItem, keyIndex) => (
+                                                item.listItems.map((listItem, keyIndex) => (
                                                     <li key={keyIndex}>{listItem.list}</li>
                                                 ))
                                             }
