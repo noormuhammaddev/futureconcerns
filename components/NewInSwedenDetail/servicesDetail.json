@@ -21,7 +21,14 @@
                             "list": "CLARITY: Our team of experts will help you, irrespective of the fact that how complicated your case is.",
                             "list": "QUICKLY AVAILABILITY OF A LAWYER: As soon as you contact us, our immigration lawyers will start working on your case."
                         }
-                    ]
+                    ],
+                    paragraphs2: [
+                        {
+                            "para": "If you are an asylum seeker and need an expert to take care of your asylum process at the Swedish Migration Agency, we are here for you",
+                            "para": "",
+                            "para": ""
+                        }
+                    ],
 
                 },
 

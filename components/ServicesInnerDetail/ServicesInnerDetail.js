@@ -27,7 +27,7 @@ const ServicesInnerDetail = ({data}) => {
                                         }
                                         {
                                             item.paragraphs.map((para, key) => (
-                                                <p key={key}>{para}</p>
+                                                <p key={key}>{para.para}</p>
                                             ))
                                         }
                                         {
@@ -42,11 +42,11 @@ const ServicesInnerDetail = ({data}) => {
                                             }
                                             </ul></div> : ''
                                         }
-                                        {
+                                        {/* {
                                             item.paragraphs2.map((para2, paraKey) => (
                                                 <p key={paraKey}>{para2}</p>
                                             ))
-                                        }
+                                        } */}
                                         
                                     </section>
                                 ))
