@@ -21,7 +21,7 @@ const ApiIntegrationDetail = () => {
                             <section>
                                 <h3>Benefits of API Integration</h3>
                                 <div className="services-details-image">
-                                    <img src="/img/services/software-development.jpg" alt="image" />
+                                    <img src="/img/services/software-developments.jpg" alt="image" />
                                 </div>
 
                                 <div className="content">
