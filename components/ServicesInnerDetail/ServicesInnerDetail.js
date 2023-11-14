@@ -5,7 +5,7 @@ import Sidebar from './Sidebar';
 
 
 const ServicesInnerDetail = ({data}) => {
-    console.log('sss, ', data)
+    console.log('data ', data)
     return (
         <section className="services-details-area ptb-100">
             <div className="container">
@@ -27,16 +27,16 @@ const ServicesInnerDetail = ({data}) => {
                                         }
                                         {
                                             item.paragraphs.map((para, key) => (
-                                                <p key={key}>{para.para}</p>
+                                                <p key={key} className="noor">{para.para}</p>
                                             ))
                                         }
                                         {
                                             item.inner_heading !== '' ? <strong>{item.inner_heading}</strong> : ''
                                         }
                                         {
-                                            item.list_items ? <div className="content"><ul>
+                                            item.listItems ? <div className="content"><ul>
                                             {
-                                                item.list_items.map((listItem, keyIndex) => (
+                                                item.listItems.map((listItem, keyIndex) => (
                                                     <li key={keyIndex}>{listItem.list}</li>
                                                 ))
                                             }
@@ -47,7 +47,7 @@ const ServicesInnerDetail = ({data}) => {
                                                 <p key={paraKey}>{para2}</p>
                                             ))
                                         } */}
-                                        
+                                        <br />
                                     </section>
                                 ))
                             }
