@@ -523,14 +523,49 @@ const blogData = [
             {
                 heading: '',
                 paragraphs: [
-
+                    'Would you like to start a profitable business as a foreigner in Sweden? If so, here are six of Sweden’s best small business ideas & investment opportunities that will generate you a handsome amount.',
                 ],
-                list: [
-                    
+            },
+            {
+                heading: 'Home Rental Business',
+                paragraphs: [
+                    'There is always a space of Home-Property rental business in Sweden.A rental property business is a venture through which an investor will purchase and manage one or more income-producing properties. These properties can have one or more units that are leased out to tenants in exchange for monthly rental fees. Investors can have an effective rental plan without having to directly manage these properties; property management companies can be hired to carry out the duties often associated with landlords, such as rent collection and maintenance.It could be the idea if you are going to start a business with a partner or if you can invest in property or house by yourself and later rent-out as secure regular income. Subletting through AirBnb is quite profitable in big cities as well.'
                 ],
-                paragraphs2: [
-
-                ]
+            },
+            {
+                heading: 'Start Boat Rental Business',
+                paragraphs: [
+                    'Ironically, with a few small boats, you can start this business. With the building of the Göta Canal in the 19th century, Sweden’s vast waterway connectivity throughout the south was utilized, shortening the possible gap between the Baltic Sea south of Norrköping and Göteborg by using the lake and river network to facilitate the canal. This shows that a boat rental service in Sweden is expected to be successful.'
+                ],
+            },
+            {
+                heading: 'Sweater and Cardigan Knitting Business',
+                paragraphs: [
+                    'Given its northern latitude, most of Sweden has a temperate climate with four distinct seasons and mild temperatures throughout the year.',
+                    'With the exception of the mountains, the country as a whole has a July average temperature between 15 ° C (59 ° F) and 17.5 ° C (63.5 ° F) (2.5 degrees Celsius difference), whereas the average January temperatures range from freezing point to below −15 ° C (5 ° F) along the Finnish border (15 degrees Celsius difference).',
+                    'A sweater and cardigan knitting company is an ideal start-up business in Sweden with this kind of freezing weather. An entrepreneur who wants to start a sweater and cardigan knitting company can start their own label on a small scale from home and serve a niche market such as schools and neighborhood families.'
+                ],
+            },
+            {
+                heading: 'Start a Sawmill Cottage Business',
+                paragraphs: [
+                    'Sawmill cottage business is yet another small-scale, highly thriving business in Sweden and prospects for newbies to enter the industry. This company is perfect in Sweden as it is distinguished by a large wealth of trees and shrubs in some regions of the country. The beech is the most dominant tree, but also smaller forests may form oak.',
+                    'Hornbeam, oak, spindle, yew, alder buckthorn, blackthorn, aspen, European rowan, Swedish whitebeam, juniper, European holly, ivy, dogwood, goat willow, larch, bird cherry, wild cherry, maple, ash, alder along creeks, and in sandy soil, birch compete with pine.',
+                ],
+            },
+            {
+                heading: 'Open a Language School',
+                paragraphs: [
+                    'Opening a language school that teaches foreign languages, sign language, and second language English is an effective small-scale language that can start in Sweden.',
+                    'While Sweden’s official language is Swedish, but in varying degrees, depending largely on the level of contact with English, most Swedes, particularly those born after the Second World War, understand and speak English because of trade links, the popularity of overseas travel, the strong Anglo-American presence and the practice of subtitling rather than dubbing foreign television shows and films, and the relative similarities between the two languages, making it easier to learn English. Eighty-nine percent of Swedes reported the ability to speak English in a 2005 Eurobarometer survey.',
+                ],
+            },
+            {
+                heading: 'Start Concierge Medical Practice Business',
+                paragraphs: [
+                    'A person seeking care, first visits a doctor’s appointment clinic and may then be referred by the clinic doctor to a physician who, in turn, may prescribe either in-patient or out-patient treatment or an alternative for elective care. Healthcare is regulated by Sweden’s 21 landsting and is funded primarily by premiums, with patient nominal fees.',
+                    'It shows that a medical concierge company in Sweden is expected to succeed. Concierge medical practice is a medical business that gives space to a unique relationship between a patient and a physician in which the patient pays an annual fee or what is known as retainer-ship can be called retainer medicine as well.',
+                ],
             },
         ]
     },

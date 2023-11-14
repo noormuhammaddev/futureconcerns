@@ -55,8 +55,27 @@ const BlogDetailsContent = ({postData}) => {
                                             }
 
                                             {
-                                                item.paragraphs.map((para, key) => (
+                                                item.paragraphs && item.paragraphs.map((para, key) => (
                                                     <p key={key}>{para}</p>
+                                                ))
+                                            }
+                                            {
+                                                item.list ? (
+                                                    <div className='content'>
+                                                        <ul>
+
+                                                        
+                                                        {item.list && item.list.map((listItem, listKey) => (
+                                                            <li key={listKey}>{listItem}</li>
+                                                        ))}
+                                                        </ul>
+                                                    </div>
+                                                ) : ''
+                                            }
+
+                                            {
+                                                item.paragraphs2 && item.paragraphs2.map((para2, key) => (
+                                                    <p key={key}>{para2}</p>
                                                 ))
                                             }
                                         </section>
