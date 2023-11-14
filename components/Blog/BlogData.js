@@ -2,7 +2,7 @@ const blogData = [
     {
         id: '1',
         img: 'sss',
-        title: '5 Things To Keep In Mind If You Are Relocating To Sweden1111',
+        title: '5 Things To Keep In Mind If You Are Relocating To Sweden',
         author: 'futureconcerns',
         date: '06/07/2021',
         description: 'Starting a new life overseas can be a mix of different feelings. If you are planning...',

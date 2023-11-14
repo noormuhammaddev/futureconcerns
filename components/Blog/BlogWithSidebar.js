@@ -16,7 +16,7 @@ const BlogWithSidebar = () => {
                                 <div className="col-md-6" key={index}>
                                     <div className="single-blog-post bg-fffbf5">
                                         <div className="post-image">
-                                            <Link href={`/blog-details?${item.id}`}>
+                                            <Link href={`/blog-details?postid=${item.id}`}>
                                                 <a>
                                                     <img src="/img/blog/blog-img4.jpg" alt="image" />
                                                 </a>
@@ -36,7 +36,7 @@ const BlogWithSidebar = () => {
                                                 </li>
                                             </ul>
                                             <h3>
-                                                <Link href={`/blog-details?${item.id}`}>
+                                                <Link href={`/blog-details?postid=${item.id}`}>
                                                     <a>{item.title}</a>
                                                 </Link>
                                             </h3>
