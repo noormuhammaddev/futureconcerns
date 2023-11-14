@@ -6,40 +6,43 @@ import Footer from '../components/_App/Footer';
 import blogData from '../components/blog/BlogData';
 
 const BlogDetails = () => {
-    // const [postID, setPostID] = useState();
-    // const [currentPost, setCurrentPost] = useState();
+    const [postID, setPostID] = useState();
+    const [currentPost, setCurrentPost] = useState();
 
-    // useEffect(() => {
-    //     const currentUrl = window.location.href;
-    //     setPostID(currentUrl.split('=')[1]);
-    //     // console.log('current ID: ', currentUrl.split('=')[1]);
+    useEffect(() => {
+        const currentUrl = window.location.href;
+        setPostID(currentUrl.split('=')[1]);
+        console.log('current ID: ', currentUrl.split('=')[1]);
 
-    //     const objectWithIdOne = findObjectById(postID);
-    // }, []);
+        // const objectWithIdOne = findObjectById(postID);
+    }, []);
 
-    // const findObjectById = (id) => {
-    //     return blogData.find(item => item.id === id);
-    // };
+    const currentPostData = blogData.filter(item => item.id === postID)[0];
 
-    // useEffect(() => {
-    //     const objectWithIdOne = findObjectById(postID);
-    //     setCurrentPost(objectWithIdOne);
-    //     console.log('Object with ID: ', currentPost);
-    // }, [blogData]);
+    console.log('curent object->: ', currentPostData);
+
+
 
 
     return (
         <>
             <Navbar />
+            {
+                currentPostData && (
+                    <PageBanner
+                        pageTitle={currentPostData.title} 
+                        homePageText="Home" 
+                        homePageUrl="/" 
+                        activePageText={currentPostData.title}
+                    /> 
 
-            <PageBanner
-                pageTitle="Blog Details" 
-                homePageText="Home" 
-                homePageUrl="/" 
-                activePageText="Blog Details" 
-            /> 
-
-            <BlogDetailsContent />
+                )
+            }
+            
+            {
+                currentPostData && <BlogDetailsContent postData={currentPostData} /> 
+            }
+            
             
             <Footer />
         </>

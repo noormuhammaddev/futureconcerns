@@ -1,7 +1,7 @@
 const blogData = [
     {
         id: '1',
-        img: 'sss',
+        img: 'https://www.futureconcerns.se/wp-content/uploads/2021/07/business-startup-2-720x630.png',
         title: '5 Things To Keep In Mind If You Are Relocating To Sweden',
         author: 'futureconcerns',
         date: '06/07/2021',
@@ -50,7 +50,7 @@ const blogData = [
     },
     {
         id: '2',
-        img: 'sss',
+        img: 'https://www.futureconcerns.se/wp-content/uploads/2021/07/business-startup-1-720x630.png',
         title: '5 Swedish Foods You Must Try',
         author: 'futureconcerns',
         date: '06/07/2021',
@@ -99,95 +99,103 @@ const blogData = [
     },
     {
         id: '3',
-        img: 'sss',
+        img: 'https://www.futureconcerns.se/wp-content/uploads/2021/07/educational-books-720x630.png',
         title: 'A Guide About Student Fee And Admissions In Sweden',
         author: 'futureconcerns',
         date: '06/07/2021',
-        description: 'How expensive it can be to study in Sweden? If you are looking for the answer to this...'
+        description: 'How expensive it can be to study in Sweden? If you are looking for the answer to this...',
+        detail: [
+            {
+                heading: '',
+                paragraphs: [
+                    '',
+                ]
+            },
+        ]
     },
     {
-        id: '',
-        img: 'sss',
+        id: '4',
+        img: 'https://www.futureconcerns.se/wp-content/uploads/2021/07/business-startup-720x630.png',
         title: 'How To Build A Successful Start-Up In Sweden0',
         author: 'futureconcerns',
         date: '06/07/2021',
         description: 'Sweden is known as the land of start-ups because the economic conditions of the count...'
     },
     {
-        id: '',
-        img: 'sss',
+        id: '5',
+        img: 'https://www.futureconcerns.se/wp-content/uploads/2021/07/programmers-building-mobile-application-720x630.png',
         title: 'Need A Work Permit In Sweden? Here Is What You Need To Do',
         author: 'futureconcerns',
         date: '06/07/2021',
         description: 'Are you planning to move to Sweden for work? Everyone wants to look for better opport...'
     },
     {
-        id: '',
-        img: 'sss',
+        id: '6',
+        img: 'https://www.futureconcerns.se/wp-content/uploads/2021/07/world-tour-720x630.png',
         title: '5 Reasons You Should Plan For Moving Out Of Sweden',
         author: 'futureconcerns',
         date: '06/07/2021',
         description: 'Relocation is a lofty decision to make on part of an individual more or so, and on a...'
     },
     {
-        id: '',
-        img: 'sss',
+        id: '7',
+        img: 'https://www.futureconcerns.se/wp-content/uploads/2021/07/employee-giving-presentation-in-office-720x630.png',
         title: 'Things You Should Know Before Immigrating To Sweden',
         author: 'futureconcerns',
         date: '06/07/2021',
         description: 'Relocating or immigrating is a life-changing process. You need adaptations you find y...'
     },
     {
-        id: '',
-        img: 'sss',
+        id: '8',
+        img: 'https://www.futureconcerns.se/wp-content/uploads/2021/07/startup-business-720x630.jpg',
         title: 'Why Do Certain Businesses Fail In Sweden?',
         author: 'futureconcerns',
         date: '06/07/2021',
         description: 'Expatriates in Sweden sure have to work hard to be one of the Swedes and starting a b...'
     },
     {
-        id: '',
-        img: 'sss',
+        id: '9',
+        img: 'https://www.futureconcerns.se/wp-content/uploads/2020/06/post-001-720x630.jpg',
         title: 'Why You Shouldn’t Be Afraid Of Visiting Sweden',
         author: 'futureconcerns',
         date: '06/07/2021',
         description: 'Visiting Sweden may not be the hot pick for a holiday as compared to the other Wester...'
     },
     {
-        id: '',
-        img: 'sss',
+        id: '10',
+        img: 'https://www.futureconcerns.se/wp-content/uploads/2020/06/successful-business-teamwork-720x630.png',
         title: 'Which Businesses Should You Start In Sweden?',
         author: 'futureconcerns',
         date: '06/07/2021',
         description: 'Would you like to start a profitable business as a foreigner in Sweden? If so, here a...'
     },
     {
-        id: '',
-        img: 'sss',
+        id: '11',
+        img: 'https://www.futureconcerns.se/wp-content/uploads/2020/06/post-003-720x630.jpg',
         title: '5 Common Problems Faced By Immigrants In Sweden',
         author: 'futureconcerns',
         date: '06/07/2021',
         description: 'Sweden is undoubtedly a fascinating country that is enriched in natural beauty, cultu...'
     },
     {
-        id: '',
-        img: 'sss',
+        id: '12',
+        img: 'https://www.futureconcerns.se/wp-content/uploads/2020/05/post-004-720x630.jpg',
         title: 'Why Sweden Is Considered An Ideal Place For Studying',
         author: 'futureconcerns',
         date: '06/07/2021',
         description: 'If you are thinking about studying abroad, then visit Sweden. You probably want to kn...'
     },
     {
-        id: '',
-        img: 'sss',
+        id: '13',
+        img: 'https://www.futureconcerns.se/wp-content/uploads/2020/06/post-002-720x630.jpg',
         title: '5 Must-Visit Holiday Spots In Sweden',
         author: 'futureconcerns',
         date: '06/07/2021',
         description: 'Sweden is known all over the world for many things: cars like Saab and Volvo, music g...'
     },
     {
-        id: '',
-        img: 'sss',
+        id: '14',
+        img: 'https://www.futureconcerns.se/wp-content/uploads/2020/05/post-005-720x630.jpg',
         title: 'How To Get A Visit Visa For Sweden',
         author: 'futureconcerns',
         date: '06/07/2021',

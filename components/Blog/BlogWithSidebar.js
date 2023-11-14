@@ -15,10 +15,11 @@ const BlogWithSidebar = () => {
                                 blogData.map((item, index) => (
                                 <div className="col-md-6" key={index}>
                                     <div className="single-blog-post bg-fffbf5">
-                                        <div className="post-image">
+                                    {/* #61608a */}
+                                        <div className="post-image bg-secondary">
                                             <Link href={`/blog-details?postid=${item.id}`}>
                                                 <a>
-                                                    <img src="/img/blog/blog-img4.jpg" alt="image" />
+                                                    <img src={item.img} alt="image" />
                                                 </a>
                                             </Link>
                                         </div>
