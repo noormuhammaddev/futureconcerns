@@ -94,6 +94,11 @@ const Navbar = () => {
                                                     <a onClick={() => setCollapsed(true)} className="nav-link">App Development</a>
                                                 </Link>
                                             </li>
+                                            <li className="nav-item">
+                                                <Link href="/man-power-solutions" activeClassName="active">
+                                                    <a onClick={() => setCollapsed(true)} className="nav-link">Man Power Solutions</a>
+                                                </Link>
+                                            </li>
                                         </ul>
                                     </li>
 
@@ -299,15 +304,6 @@ const Navbar = () => {
                                 </ul>
                             
                                 <div className="others-option d-flex align-items-center">
-                                    <div className="option-item">
-                                        <form className="search-box">
-                                            <input type="text" className="input-search" placeholder="Search for anything" />
-                                            <button type="submit">
-                                                <i className="flaticon-loupe"></i>
-                                            </button>
-                                        </form>
-                                    </div>
-
                                     <div className="option-item">
                                         <Link href="/contact">
                                             <a onClick={() => setCollapsed(true)} className="default-btn">
