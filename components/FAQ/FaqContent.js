@@ -307,6 +307,16 @@ const FaqContent = () => {
                                     </AccordionItemHeading>
                                     <AccordionItemPanel>
                                         <p>{item.answer}</p>
+                                        {
+                                            item.list && 
+                                            <ul>
+                                                {
+                                                    item.list.map((listItem, listKey) => (
+                                                        <li key={listKey}>{listItem}</li>
+                                                    ))
+                                                }
+                                            </ul>
+                                        }
                                     </AccordionItemPanel>
                                 </AccordionItem>
                             ))
