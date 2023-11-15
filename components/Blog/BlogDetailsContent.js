@@ -132,7 +132,7 @@ const BlogDetailsContent = ({postData}) => {
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p> */}
                             </div>
 
-                            <div className="article-footer">
+                            {/* <div className="article-footer">
                                 <div className="article-tags">
                                     <span><i className='bx bx-purchase-tag'></i></span>
 
@@ -220,10 +220,10 @@ const BlogDetailsContent = ({postData}) => {
                                         </Link>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
 
                             <div className="comments-area">
-                                <h3 className="comments-title">2 Comments:</h3>
+                                {/* <h3 className="comments-title">2 Comments:</h3>
 
                                 <ol className="comment-list">
                                     <li className="comment">
@@ -367,7 +367,7 @@ const BlogDetailsContent = ({postData}) => {
                                             </li>
                                         </ol>
                                     </li>
-                                </ol>
+                                </ol> */}
 
                                 <div className="comment-respond">
                                     <h3 className="comment-reply-title">Leave a Reply</h3>

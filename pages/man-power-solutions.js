@@ -1,26 +1,28 @@
 import React from 'react';
 import Navbar from '../components/_App/Navbar';
 import PageBanner from '../components/Common/PageBanner';
-import BlogWithSidebar from '../components/Blog/BlogWithSidebar';
+import SoftwareDevelopmentDetail from '../components/SoftwareDevelopmentDetail/SoftwareDevelopmentDetail';
 import Footer from '../components/_App/Footer';
-
-const Blog = () => {
+ 
+const SoftwareDevelopment = () => {
     return (
         <>
             <Navbar />
 
             <PageBanner
-                pageTitle="Blog" 
+                pageTitle="Man Power Solutions" 
                 homePageText="Home" 
                 homePageUrl="/" 
-                activePageText="Blog" 
+                activePageText="Man Power Solutions" 
             />
 
-            <BlogWithSidebar />
+            <SoftwareDevelopmentDetail />
+
+            {/* <RelatedServices /> */}
             
             <Footer />
         </>
     );
 }
 
-export default Blog;
+export default SoftwareDevelopment;

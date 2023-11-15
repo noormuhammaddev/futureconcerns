@@ -19,7 +19,7 @@ const Testimonials = () => {
 
             <TestimonialsStyleOne />
 
-            <TestimonialsStyleTwo />
+            {/* <TestimonialsStyleTwo /> */}
             
             <Footer />
         </>
