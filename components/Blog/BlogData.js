@@ -580,7 +580,60 @@ const blogData = [
             {
                 heading: '',
                 paragraphs: [
+                    'Sweden is undoubtedly a fascinating country that is enriched in natural beauty, culture, cool climate, and a fine economy, that attracts immigrants from all across the globe. Some migrate to Sweden for studies, some plan their visit to Sweden for business, others are interested in having a work permit to seek jobs and many come on an EU family visa for paying a visit to this paradise on Earth. As interesting as it seems, this country is enriched in employment, tourism and studies but we should also keep an eye on the hindrance that can be caused while migrating to the country for any of these causes. Some of the common barriers to immigration in the country include'
+                ],
+                list: [
+                    'Education',
+                    'Employment',
+                    'Climate',
+                    'VISA and residence',
+                    'Expenses',
+                    'Education'
+                ],
+                paragraphs2: [
+                    'You may think that English would be widely used as a means of communication in the country from the fact that it is a developed country. It is essentially not the case in Sweden. You will have to face many barriers to effective communication. As a student, you may find it difficult to make friends because of the cross-cultural barriers. Students from all across the globe migrate to the country for education including a large number of students from Africa.'
+                ]
+            },
+            {
+                heading: 'Employment',
+                paragraphs: [
+                    'The country has developed over the decades and offers great employment opportunities to the residents. This statement is true, but its only one side of the canvass. Sweden offers job opportunities to its nationals so that they may secure their employment career. On the other hand, more than 37% of immigrants fail to find proper employment in Sweden. Those immigrants who are employed are compelled to work at a relatively low salary which ultimately causes an increase in the GDP of the country and a point to ponder for the immigrants.'
+                ],
+                list: [
+                    
+                ],
+                paragraphs2: [
 
+                ]
+            },
+            {
+                heading: 'Climate',
+                paragraphs: [
+                    'A cool climate, snowfall, and captivating sceneries catch the attention of the migrants, but it is not as captivating in the real world. Sweden has comparatively long winters with less sunlight penetrating into the country. For the immigrants who have other problems including residence, work opportunities and language problems, cold and long winters can have adverse effects. Winters last for the most part of the year making it difficult for immigrants who come from countries like Africa, Nigeria, and others.'
+                ],
+                list: [
+                    
+                ],
+                paragraphs2: [
+
+                ]
+            },
+            {
+                heading: 'Visa and Residence',
+                paragraphs: [
+                    'Sweden is deporting many of the immigrants in the country because of the population saturation. You should be well aware that getting an EU visa is not a difficult task, but finding the accommodation certainly is. Immigrants face a drastic shortage of residence is the major cities such as Stockholm and they are left with no other options to either bear the cold or get a residence at elevated costs. So, if you are about to get your VISA approved for the country, make sure you would also have to face a residence issue along with others such as unemployment.'
+                ],
+                list: [
+                    
+                ],
+                paragraphs2: [
+
+                ]
+            },
+            {
+                heading: 'Expenses',
+                paragraphs: [
+                    'You will find a considerable difference is the prices of products and services in Sweden as compared to your homeland. You may find the prices of food about two folds high in the country. If you are planning to stay in the country, you should prepare yourself for a high monthly budget. The only option to cope up with this situation is to plan effectively and distribute your budget accordingly, to minimize the extensive inflation in the country.'
                 ],
                 list: [
                     
@@ -602,14 +655,46 @@ const blogData = [
             {
                 heading: '',
                 paragraphs: [
-
-                ],
-                list: [
-                    
-                ],
-                paragraphs2: [
-
+                    'If you are thinking about studying abroad, then visit Sweden. You probably want to know why Sweden is considered as a great destination. Let me notify you, Sweden has a fascinating history and culture, global businesses, delicious food, and welcoming people; and is also well known for its world-class academic opportunities that rank among the top 100 in the world.',
+                    'Following are 6 reasons why Sweden is considered an ideal place to study:'
                 ]
+            },
+            {
+                heading: 'Vision Enhancement of One’s Mind',
+                paragraphs: [
+                    'Study in Sweden let you think independently and critically. It will enhance your ability to question the state of affairs by accessing information, seeking new perspectives and coming up with well-informed judgments. Because of the informal and non-hierarchical nature of Swedish society, you will be able to think creatively. Where everyone is urged to bestow their ideas and opinions. This independence of mind and letting everyone’s voice heard are the reasons why Sweden ranks among the world’s most innovative nations.'
+                ],
+            },
+            {
+                heading: 'Rich Swedish History',
+                paragraphs: [
+                    'Sweden has contributed a lot to the history books, and many museums allow free entrance on a daily basis or on specially marked days throughout the year.  Swedish History Museum, the largest museum in Sweden; where millions of visitors and students come to see Sweden’s foremost gold and silver treasures, and incomparable medieval art.'
+                ],
+            },
+            {
+                heading: 'Language Proficiency:',
+                paragraphs: [
+                    'Using Swedish, a rich and beautiful native language; in 2017, Swedes ranked second in the world for skills in English as an official language. As the world is getting more independent and businesses seek to extend the national and linguistic boundaries, Sweden offers a marvelous location to learn and develop your English language skills. But knowing and trying to learn a little bit of Swedish language will make much easier to open your mind to your new cultural surroundings.  Also, Sweden is a car-free country with an extensive network of buses, trains, subways, trams, boats, planes, and many more that can take you anywhere you want to go.'
+                ],
+            },
+            {
+                heading: 'Malmö, A Coastal City',
+                paragraphs: [
+                    'Malmö is among the top cities in Sweden having a free business environment and also a good place to live with outrageous rankings in housing, healthcare, and environmental quality. The University of Malmo founded in 1998, attracts above 15,000 students every year. It’s not only a global city but also a commercial hub in the South of Sweden, as part of the Öresund region. The city has attracted a wide variety of companies in the technology sector (for example bio, medical, environmental, information and communication), as well as digital media, transports, financial services, business, leisure, entertainment, and constructions. And, most importantly, the cost of an apartment in Malmo is in the 139th place of all 248 Teleport cities.'
+                ],
+            },
+            {
+                heading: 'Studying and Working in Sweden',
+                paragraphs: [
+                    'International students can comfortably get Sweden work permit. Unlike other countries, there’s no legal limit to the number of hours international students can work during their studies. After the completion of studies, you can apply to extend your residence permit to look for work for up to six months. (But for that learning Swedish is necessary – it’s often a job’s requirement.)'
+                ],
+            },
+            {
+                heading: 'EU Citizen’s Right:',
+                paragraphs: [
+                    'Unless you are a citizen of a neighboring Nordic country, every foreigner will need to contemplate the different types of Swedish visas. When applying for a Swedish visa, you are not allowed to be in the country. This largely related to non-EU/EEA citizens and citizens of Sweden; because citizens with EU/EEA family visa Sweden have the rights of residence in Sweden and therefore can shift to the country with or without a job. However, they will need to start the Swedish visa application process if they plan to continue their stay in a country for a long time.',
+                    'If you are thinking about relocation Sweden; want to study abroad and also interesting in traveling, then Swedes are waiting for you. They are very friendly and like traveling very much. They are habitually open to know about a new culture and also interested in hearing about international experiences.'
+                ],
             },
         ]
     },
@@ -624,14 +709,42 @@ const blogData = [
             {
                 heading: '',
                 paragraphs: [
-
+                    'Sweden is known all over the world for many things: cars like Saab and Volvo, music group ABBA, pickled herring, and IKEA’s DIY megastore. It is just as popular for its beautiful scenery, picturesque fishing villages, being the land of the reindeer and endless summer heat.',
+                    'Sweden is lined with colorful wooden buildings, traditional huts, cathedral and stone fortresses, and some pretty innovative contemporary architecture.'
                 ],
-                list: [
-                    
+            },
+            {
+                heading: 'Stockholm',
+                paragraphs: [
+                    'Stockholm, a beautiful city on 14 islands, as the capital of Sweden and the largest city in Scandinavia, has a lot to do with it. The annual Nobel Prize is awarded in Stockholm, which was established in the 13th century. The Vasa Museum, dedicated to a warship of the 17th century that sunk on its maiden journey, is the most visited museum in Scandinavia. Stockholm is better for your budget than other Scandinavian towns, offering free access to 15 museums like Swedish Heritage, Medieval Museum, Royal Armoury, and Skokloster Castle.',
+                    'The Royal Palace, Modern Art Museum and City Hall should also not be missed.'
                 ],
-                paragraphs2: [
-
-                ]
+            },
+            {
+                heading: 'Gotland',
+                paragraphs: [
+                    'As the largest island in Sweden, completely surrounded by the Baltic Sea, you would think that fishing would be the main industry on the island. It’s not that. Among the main sectors are forestry, tourism and information technology. The island is one of the most popular tourist destinations in Sweden. Sun seekers like it because during the year it has more sunshine than any other location in Sweden. Visby, the island’s only port, is a beautiful walled Hanseatic city that has retained most of its historic buildings and townscape. There are about 100 medieval churches on the island as well as numerous prehistoric sites.'
+                ],
+            },
+            {
+                heading: 'Gothenburg',
+                paragraphs: [
+                    'Gothenburg, located on the western coast of Sweden, is a green city dotted with numerous parks of all sizes. Many of the parks date back to the 19th century, including Kungsparken, a park that surrounds the canal that surrounds the city center.',
+                    'If you’re more interested in amusement parks, head to Liseberg, which has more rides than any other amusement park in Scandinavia. The largest port city in Scandinavia, Gothenburg is also home to the largest film festival in the region, as well as numerous music festivals throughout the year. Hungry, huh? Try a Haga Bulle, a large cinnamon roll in Haga, a district known for its picturesque wooden houses.'
+                ],
+            },
+            {
+                heading: 'Swedish Lapland',
+                paragraphs: [
+                    'If you’re looking for a wilderness experience, there’s no better place to visit than the Swedish Lapland in Sweden. Located well north above the Arctic Circle, where summer shines around the clock. Lapland is for canoes, climbers and wildlife viewers. The Swedish Lapland is inhabited by the hardy, native Sami. Who lives in vast forests and barren tundra.',
+                    'A good way to experience the area is to drive the 359-km (223-mile) long Wilderness Way from the canoeing center at Stromsund to the terminus at Vilhelmina, a church town, through Fatmomakke, where you can see traditional wooden huts. Winter tourists can purchase reindeer hides at Jokkmokk, the center of Sami’s life.'
+                ],
+            },
+            {
+                heading: 'Uppsala',
+                paragraphs: [
+                    'Uppsala, situated 70 km (44 miles) north of Stockholm, has been the religious center of Sweden since the 12th century. Before Christianity, Uppsala was renowned for the temples of the Norse gods. The cathedral of Uppsala, the seat of the archbishop of Sweden, is the largest cathedral in Scandinavia. Education is also important here, with Uppsala University, which was founded in 1477, making it one of the oldest colleges in Scandinavia. The River Fyris flows through the area, with the medieval portion situated west of the river. Both the Cathedral and the Uppsala Castle dominate the skyline. The botanist of the eighteenth century Carl Linnaeus lived in Uppsala, so check out the botanical garden next to the castle.'
+                ],
             },
         ]
     },
@@ -646,14 +759,49 @@ const blogData = [
             {
                 heading: '',
                 paragraphs: [
-
+                    'It’s very tricky to get a visit visa for many countries. Each has its respective rules and regulations. In this particular blog, we will guide you on what the Swedish embassy would be looking for before granting you a visa!'
                 ],
-                list: [
-                    
+            },
+            {
+                heading: 'Have you visited any other country before?',
+                paragraphs: [
+                    'This point is pretty basic but integral. The authorities at embassies would firstly want to make sure that you have the integrity to not overstay in another country or cause any other issue. Safety comes first after all.',
+                    'If you have visa approval stamps of let’s say USA or UK already, then this leaves a very good impression. It makes you seem trustworthy.'
                 ],
-                paragraphs2: [
-
-                ]
+            },
+            {
+                heading: 'Invitation is a plus',
+                paragraphs: [
+                    'Secondly, for visit visas, you’ll be required to show a formal invitation from the person in Sweden you intend to visit. Whether it be a family member or business associate, you will have to request them to write a bit about their selves and why they feel that your visa should get approved.'
+                ],
+            },
+            {
+                heading: 'A valid passport',
+                paragraphs: [
+                    'The Swedish agency prefers that you have a passport that is valid for a minimum of 3 months after your visa has expired. This point is pretty understandable, to be honest. It’s for your good. Imagine having your passport expired while still in Sweden. It can create many problems for you especially if you wish to visit another country straight from there.',
+                    'So, make sure that your passport is valid before applying for a visa. If it is not, get it renewed first.'
+                ],
+            },
+            {
+                heading: 'Money for your keep and the journey home',
+                paragraphs: [
+                    'This criterion is pretty understandable too and is a criterion for numerous countries. Without money, you’d be completely stuck in Sweden. Even if you have a family member there who can give you a roof to stay under and warm food and stuff, it still would be wise to have enough in your bank and travel bag. If not for shopping or tourism purposes, do keep some in case of emergencies. Many things can go wrong while you are in another country. Plus, it might not be easy getting a job there during your worst-case scenario stay there. So be careful!'
+                ],
+            },
+            {
+                heading: 'Individual medical travel insurance',
+                paragraphs: [
+                    'Have asthma?  Heart issues? Diabetes? An injury? Well, it would be pretty inconvenient if you suddenly have serious health issues there, right?',
+                    'Medical insurance helps cover the cost for emergencies like heart attacks or a car accident there perhaps. The insurance should cover costs of at least 30k Euro and should be valid in all Swedish countries. You would also have to submit the medical insurance documents while applying for them to keep in their records.'
+                ],
+            },
+            {
+                heading: 'Describe the purpose of your visit',
+                paragraphs: [
+                    'This seems pretty basic but doesn’t take it lightly. Write a detailed note of why you are applying, whose place will you be staying at, for how long do you wish to stay, why do you wish to go to Sweden from amongst all countries and so on. This is for them to be reassured that you won’t overstay or try anything shady or fishy.',
+                    'It’ll also be wise if you mention personal details of the person/family members you’ll be staying at. They’ll probably dig into their history anyway so it’s better to write about it yourself.',
+                    'If you keep these points in mind, it wouldn’t be likely that your visa application would be rejected. However, they aren’t satisfied and do end up rejecting, you can read up on the appealing process and present your case to get an approval.'
+                ],
             },
         ]
     },
