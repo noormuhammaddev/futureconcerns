@@ -151,7 +151,7 @@ const Footer = () => {
 
                 <div className="footer-bottom-area">
                     <div className="row align-items-center">
-                        <div className="col-lg-6 col-md-6">
+                        <div className="col-lg-8">
                             <p>
                                 Copyright &copy;{currentYear} <a target="_blank" href="https://www.futureconcerns.se/">FUTURE CONCERNS </a> 
                                 Powered By - 
@@ -160,7 +160,7 @@ const Footer = () => {
                             </p>
                         </div>
 
-                        <div className="col-lg-6 col-md-6">
+                        <div className="col-lg-4">
                             <ul>
                                 <li>
                                     <Link href="/privacy-policy">
